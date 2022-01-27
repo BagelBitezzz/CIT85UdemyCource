@@ -1,0 +1,44 @@
+body {
+    font-size: larger;
+}
+
+ul:nth-child(odd) {
+    background-color: darkred;
+}
+li:nth-child(even) {
+    color: aquamarine;
+}
+li:first-child {
+    color: darksalmon;
+    
+}li:last-child {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+li:nth-last-child(11) {
+    color: red;
+}
+div {
+    width: 25px;
+    height: 25px;
+    border:10px ridge blueviolet;
+    margin: 5px;
+    box-sizing: border-box;
+}
+div:nth-child(3n+2) {
+    border: 10px ridge chartreuse;
+}
+
+.justbetter {
+    align-content: center;
+    width: 0;
+    height: 0;
+    border: 0;
+   margin-top: 15%;
+   font-size: small;
+   color: darkslategrey;
+}
+
+article:only-child{
+    color: rgb(87, 19, 151);
+}
