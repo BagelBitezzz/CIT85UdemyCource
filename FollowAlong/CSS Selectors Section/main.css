@@ -3,7 +3,9 @@ body {
     text-align: center;
     border: 15px inset cornflowerblue;
 }
-
+a:link {
+    color: darkolivegreen;
+}
 a:visited {
     color: purple;
 }
