@@ -1,0 +1,15 @@
+body {
+    font-size: large;
+    text-align: center;
+    border: 15px inset cornflowerblue;
+}
+
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: darkslateblue;
+}
+a:active {
+    color: blue;
+}
