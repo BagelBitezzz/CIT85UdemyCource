@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    border: 3px dashed crimson;
+    margin: 1rem;
+    color: white;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+div {
+    width: 50%;
+    height: auto;
+    border: blueviolet inset 1rem;
+}
+
+p {
+width: auto;
+height: auto;
+border: groove 5px blue;
+}
+
+h1 {
+width: 50%;
+height: auto;
+border: cadetblue solid 2px;
+}
+
+#better p {
+    color: darkgoldenrod;
+}
+
+#special p {
+    color: darksalmon;
+}
+
+div ~ p {
+    color: aqua;
+    font-family: fantasy;
+}
+div > p::first-letter {
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+
+div > p:first-child {
+    color: lawngreen;
+}
+
+div > p:last-child {
+    color: burlywood;
+}
+
+.first {
+    margin: 50px;
+}
+
+.second {
+    margin: 25px;
+}
+h1::first-letter {
+    color: darkred;
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+.third {
+    background-color: darkslategray;
+}
