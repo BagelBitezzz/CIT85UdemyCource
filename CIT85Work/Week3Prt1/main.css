@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(27, 27, 27);
+    
+}
+
+section {
+    width: fit-content;
+}
+
+div {
+    width: 100px;
+    height: 25px;
+    background-color: yellow;
+    border: whitesmoke solid 3px;
+    border-radius: 50%;
+    display: table-cell;
+    
+}
