@@ -1,3 +1,3 @@
 # CIT85UdemyCource
 
-Jeffrey's Udemy Course Follow Along updated
+Jeffrey's Udemy Course Follow Along
